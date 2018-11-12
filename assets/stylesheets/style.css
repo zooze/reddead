@@ -1,0 +1,122 @@
+* {
+   
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "RDRLino";
+    src: url(../fonts/RDRLino-Regular.woff2) format("woff2");
+}
+
+body{
+    font-family: "RDRLino";
+    background-color: black;
+}
+header {
+    position: relative;
+    background-color: rgba(236, 9, 9, 0.897);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 1000px;
+    font-size: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: auto; 
+    margin-top: 50px;
+}
+
+.arthur{
+    position: relative;
+    text-transform: uppercase;  
+    background-color: rgb(233, 229, 229);
+    width:1000px;
+    height: 350px;
+    margin: auto;
+    font-size: 150%;
+    background-image: url(../images/arthur.jpg);
+    background-size: 100%;
+    background-position-y: -57px;
+    
+}
+.arthur h2{
+    position: absolute;
+    bottom: -2px;
+    left: 35px;
+    color: white;
+}
+
+.section-header{
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    width: 1000px;
+    font-size: 150%;    
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+
+.stats{
+    margin: auto;
+    width: 1000px;
+    font-size: 0;
+}
+.stat{
+    position: relative;
+    width: 235px;
+    display: inline-block;
+    background-color: rgb(95, 91, 91);
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;  
+    font-size: 16px;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: white;
+    
+
+}
+
+.stat:last-child{
+    margin-right: 0;
+}
+
+.stat .number{
+    font-size: 28px;
+    display: block;
+    margin-top: 8px;
+}
+
+.stat h3{
+    margin: 0;
+}
+.stat .of{
+    font-size: 80%;
+    margin-left: 5px;
+    margin-right: 3px;  
+}
+
+.extras{
+    width: 1000px;
+    font-size: 0;
+    margin: auto;
+    top: 20px;
+}
+
+.gangs{
+    position: relative;
+    width: 490px;
+    display: inline-block;
+    background-color: rgb(95, 91, 91);
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;  
+    font-size: 16px;
+    vertical-align: top;
+    margin-top:20px;
+    margin-bottom: 50px;
+    color: white;
+}
+.gangs:last-child{
+    margin-right: 0;
+}
