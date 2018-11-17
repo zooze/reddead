@@ -35,8 +35,9 @@ header {
     height: 350px;
     font-size: 150%;
     background-image: url(../images/arthur.jpg);
-    background-size: 100%;
-    background-position-y: -57px;
+    background-size: cover;
+    background-position-y: 42%;
+    background-position-x: 50%;
     
 }
 .arthur h2{
