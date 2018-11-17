@@ -116,8 +116,8 @@ header {
 
 .gangs{
     position: relative;
-    width: calc(50% - 20px * 1 / 2);
     display: inline-block;
+    width: calc(50% - 20px * 1 / 2);
     background-color: rgb(95, 91, 91);
     text-align: center;
     padding: 20px;
