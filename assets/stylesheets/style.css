@@ -89,6 +89,7 @@ header {
     } 
         
 }
+
 .stat:last-child{
     margin-right: 0;
 }
@@ -115,7 +116,7 @@ header {
 
 .gangs{
     position: relative;
-    width: 490px;
+    width: calc(50% - 20px * 1 / 2);
     display: inline-block;
     background-color: rgb(95, 91, 91);
     text-align: center;
